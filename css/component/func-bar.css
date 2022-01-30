@@ -9,10 +9,12 @@
     align-items: center;
     width: 25%;
     text-align: center;
+    
 }
 .func-bar__column__icon{
     font-size: 30px;
     margin-bottom: 20px;
+    position: relative;
 }
 .func-bar__column__text-box{
     display: flex;
@@ -24,4 +26,13 @@
 .func-bar__column__text{
     font-size: 17px;
     font-weight: 600;
+}
+.func-bar__column__dot{
+    position: absolute;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    right: -7px;
+    top: -7px;
 }
