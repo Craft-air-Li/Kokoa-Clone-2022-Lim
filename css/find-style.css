@@ -6,8 +6,9 @@
 /*Component*/
 @import "component/status-bar.css";
 @import "component/page-header.css";
-@import "component/user-info-bar.css";
 @import "component/nav-bar.css";
+@import "component/func-bar.css";
+@import "component/group-div.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -19,49 +20,6 @@ body{
     flex-direction: column;
     padding: 0px var(--basic-padding);
     width: 100%;
-}
-.func-bar{
-    display: flex;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-}
-.func-bar__column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    text-align: center;
-}
-.func-bar__column__icon{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.func-bar__column__text-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-}
-
-.func-bar__column__text{
-    font-size: 17px;
-    font-weight: 600;
-}
-.Group-div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: var(--basic-padding) 0px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-.Group-div__column__text{
-    font-size: 13px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.5);
-}
-.Group-div__column__icon{
-    font-size: 13px;
-    opacity: 0.3;
 }
 .Recommend{
     display: flex;

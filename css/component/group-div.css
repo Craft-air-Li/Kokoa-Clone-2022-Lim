@@ -1,0 +1,19 @@
+.Group-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--basic-padding) 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Group-div__column__text{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Group-div__column__icon{
+    font-size: 13px;
+    opacity: 0.3;
+}
+.text-dark{
+    color: rgba(0, 0, 0, 1);
+}

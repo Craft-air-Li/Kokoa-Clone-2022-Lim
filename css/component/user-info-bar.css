@@ -82,3 +82,14 @@
     align-items: center;
     border-radius: 50%;
 }
+.text-big{
+    line-height: 25px;
+}
+.User-info-bar__column__text__sub i{
+    margin-left: 5px;
+    color: tomato;
+}
+.icon-big{
+    opacity: 1;
+    font-size: 25px;
+}
