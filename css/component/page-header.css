@@ -19,4 +19,14 @@
 .page-header__column__icon{
     font-size: 22px;
     margin-left: 20px;
+    position: relative;
+}
+.page-header__column__icon__dot{
+    position: absolute;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    right: -7px;
+    top: -7px;
 }
