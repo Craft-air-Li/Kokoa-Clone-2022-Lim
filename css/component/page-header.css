@@ -1,0 +1,21 @@
+.page-header{
+    margin-top: 21px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 17px;
+}
+.page-header__column{
+    display: flex;
+}
+.page-header__column__title{
+    font-size: 27px;
+    font-weight: 700;
+}
+.page-header__column__icon{
+    font-size: 22px;
+    margin-left: 20px;
+}
