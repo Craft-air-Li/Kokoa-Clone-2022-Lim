@@ -1,0 +1,22 @@
+/*setting*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "setting/reset.css";
+@import "setting/var.css";
+
+/*Component*/
+@import "component/status-bar.css";
+@import "component/page-header.css";
+@import "component/user-info-bar.css";
+@import "component/nav-bar.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+.Main-Screen{
+    margin-top: 108px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px var(--basic-padding);
+    width: 100%;
+}

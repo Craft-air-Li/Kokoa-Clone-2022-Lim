@@ -7,6 +7,7 @@
 @import "component/status-bar.css";
 @import "component/page-header.css";
 @import "component/user-info-bar.css";
+@import "component/nav-bar.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -52,47 +53,4 @@ body{
     opacity: 0.5;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding: var(--basic-padding) 0px;
-}
-.nav-bar{
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    background-color: rgb(249, 249, 250);
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 50px;
-    bottom: 0px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-.nav-bar__column__icon{
-    font-size: 25px;
-}
-.nav-bar__column{
-    position: relative;
-}
-.nav-bar__column__alert,
-.nav-bar__column__dot{
-    position: absolute;
-}
-.nav-bar__column__alert{
-    background-color: tomato;
-    color: white;
-    font-size: 12px;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    right: -7px;
-    top: -3px;
-}
-.nav-bar__column__dot{
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    right: -7px;
-    top: -3px;
 }
