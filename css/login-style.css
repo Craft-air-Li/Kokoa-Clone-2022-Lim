@@ -1,0 +1,10 @@
+/*setting*/
+@import "setting/reset.css";
+
+body{
+    height: 1000vh;
+}
+
+.status-bar{
+    position: fixed;
+}
