@@ -1,0 +1,16 @@
+.only-mobile{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+@media screen and (max-width:500px){
+    .only-mobile{
+        display: none;
+    }
+}

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import "setting/reset.css";
 @import "setting/var.css";
+@import "setting/only-mobile.css";
 
 /*Component*/
 @import "component/status-bar.css";
@@ -146,7 +147,7 @@ body{
     background-color: white;
     padding: 5px 10px;
     justify-content: space-between;
-    transition: all 0.3 ease-in-out;
+    transition: all .5s ease-in-out;
 }
 .chat-input__clip,
 .chat-input__box__emo,
@@ -165,7 +166,7 @@ body{
     padding: 3px 3px 3px 10px;
     border-radius: 20px/50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .btn-box{
     display: flex;
@@ -196,7 +197,7 @@ body{
 }
 .chat-input__clip,
 .btn-box{
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .chat-input:focus-within .chat-input__clip,
@@ -204,9 +205,10 @@ body{
     opacity: 0;
     visibility: hidden;
 }
+
 .chat-input:focus-within .chat-input__box{
     width: 100%;
-    transform: translateX(-10%) translateY(-80px);
+    transform: translateX(-4%) translateY(-80px);
 }
 .chat-input:focus-within{
     transform: translateY(80px);

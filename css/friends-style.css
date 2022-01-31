@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import "setting/reset.css";
 @import "setting/var.css";
+@import "setting/only-mobile.css";
 
 /*Component*/
 @import "component/status-bar.css";
