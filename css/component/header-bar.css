@@ -1,0 +1,28 @@
+.header-bar{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 21px;
+    padding: var(--basic-padding);
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.header-bar__column{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+.header-bar__column:nth-child(2){
+    justify-content: center;
+}
+.header-bar__column:last-child{
+    justify-content: flex-end;
+}
+.header-bar__column__icon{
+    font-size: 23px;
+}
+.header-bar__column__text{
+    font-size: 20px;
+    font-weight: 700;
+}
