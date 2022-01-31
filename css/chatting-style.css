@@ -8,10 +8,43 @@
 @import "component/nav-bar.css";
 @import "component/header-bar.css";
 
+@keyframes fade-in-up{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes fade-in-right{
+    from{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes fade-in-left{
+    from{
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     display: flex;
     background-color: rgb(171, 194, 209);
+    height: 200vh;
+    overflow-x: hidden;
 }
 .Main-Screen{
     margin-top: 79px;
@@ -29,6 +62,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
+    animation: fade-in-up 0.8s linear;
 }
 .chat-time-bar__text{
     color: white;
@@ -43,8 +77,16 @@ body{
 .my-chat{
     display: flex;
 }
+.someone-chat{
+    opacity: 0;
+    animation: fade-in-left 0.8s linear forwards;
+    animation-delay: 0.8s;
+}
 .my-chat{
+    opacity: 0;
     justify-content: flex-end;
+    animation: fade-in-right 0.8s linear forwards;
+    animation-delay: 1.6s;
 }
 .someone-chat__img{
     width: 40px;
@@ -139,4 +181,9 @@ body{
     height: 35px;
     color: rgba(0, 0, 0, 1);
     margin-left: 5px;
+}
+
+.chat-input__box__input:focus-within .chat-input:first-child{
+    opacity: 0;
+    visibility: hidden;
 }

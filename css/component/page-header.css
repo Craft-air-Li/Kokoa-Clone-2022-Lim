@@ -1,3 +1,12 @@
+@keyframes rotate{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
 .page-header{
     margin-top: 21px;
     position: fixed;
@@ -20,6 +29,9 @@
     font-size: 22px;
     margin-left: 20px;
     position: relative;
+}
+.page-header__column__icon .fa-cog:hover{
+animation: rotate 2s linear infinite;
 }
 .page-header__column__icon__dot{
     position: absolute;

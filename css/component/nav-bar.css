@@ -1,3 +1,24 @@
+@keyframes coin-flip{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes btn-up{
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
 .nav-bar{
     position: fixed;
     width: 100%;
@@ -15,6 +36,18 @@
 }
 .nav-bar__column{
     position: relative;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: btn-up 0.5s ease-in-out forwards;
+}
+.nav-bar__column:nth-child(2){
+    animation-delay: 0.3s;
+}
+.nav-bar__column:nth-child(3){
+    animation-delay: 0.6s;
+}
+.nav-bar__column:last-child{
+    animation-delay: 0.9s;
 }
 .nav-bar__column__alert,
 .nav-bar__column__dot{
@@ -32,6 +65,7 @@
     border-radius: 50%;
     right: -7px;
     top: -3px;
+    animation: coin-flip 2s ease-in-out infinite;
 }
 .nav-bar__column__dot{
     background-color: tomato;
