@@ -8,6 +8,9 @@
     align-items: center;
     background-color: white;
 }
+.header-bar-chat{
+    background-color: rgb(171, 194, 209);
+}
 .header-bar__column{
     width: 33%;
     display: flex;
@@ -21,6 +24,7 @@
 }
 .header-bar__column__icon{
     font-size: 23px;
+    margin-left: 15px;
 }
 .header-bar__column__text{
     font-size: 20px;

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting-Page</title>
+    <link rel="stylesheet" href="css/chatting-style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://blog.kakaocdn.net/dn/Sq4OD/btqzlkr13eD/dYwFnscXEA6YIOHckdPDDk/img.jpg"
+    />
+  </head>
+  <body>
+    <div class="status-bar status-bar-chat">
+      <div class="status-bar__column status-left">
+        <span class="status-bar__column__text">No Service</span>
+        <span class="status-bar__column__icon"
+          ><i class="fas fa-wifi"></i
+        ></span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__column__text">18:43</span>
+      </div>
+      <div class="status-bar__column status-right">
+        <span class="status-bar__column__icon"
+          ><i class="fas fa-lock"></i
+        ></span>
+        <span class="status-bar__column__text">11%</span>
+        <span class="status-bar__column__icon"
+          ><i class="fas fa-battery-quarter fa-lg"></i
+        ></span>
+        <span class="status-bar__column__icon"
+          ><i class="fas fa-bolt"></i
+        ></span>
+      </div>
+    </div>
+    <div class="header-bar header-bar-chat">
+      <div class="header-bar__column">
+        <a href="chats-page.html"
+          ><span class="header-bar__column__icon"
+            ><i class="fas fa-chevron-left"></i></span
+        ></a>
+      </div>
+      <div class="header-bar__column">
+        <span class="header-bar__column__text">Lim SeoungJun</span>
+      </div>
+      <div class="header-bar__column">
+        <span class="header-bar__column__icon"
+          ><i class="fas fa-search"></i
+        ></span>
+        <span class="header-bar__column__icon"
+          ><i class="fas fa-bars"></i
+        ></span>
+      </div>
+    </div>
+    <main class="Main-Screen">
+      <div class="chat-time-bar">
+        <span class="chat-time-bar__text">Monday, January 31, 2022</span>
+      </div>
+      <div class="chatting-part">
+        <div class="someone-chat">
+          <div class="someone-chat__img">
+            <img src="screenshots/KakaoTalk_20220104_111925070 (2).jpg" />
+          </div>
+          <div class="someone-chat__text-box">
+            <span class="someone-chat__text-box__name">Lim SeoungJun</span>
+            <div class="someone-chat__text-box__box">
+              <div class="someone-chat__text-box__chat-box">
+                <span class="someone-chat__text-box__chat-box__text">Hi!</span>
+              </div>
+              <span class="someone-chat__text-box__chat-box__time">21:27</span>
+            </div>
+          </div>
+        </div>
+        <div class="my-chat">
+          <div class="my-chat__text-box">
+            <div class="my-chat__text-box__box">
+              <div class="my-chat__text-box__chat-box">
+                <span class="my-chat__text-box__chat-box__text"
+                  >What's up?</span
+                >
+              </div>
+              <span class="my-chat__text-box__chat-box__time">21:27</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="chat-input">
+      <button class="chat-input__clip">
+        <i class="far fa-plus-square"></i>
+      </button>
+      <div class="chat-input__box">
+        <input class="chat-input__box__input" type="text" />
+        <button class="chat-input__box__emo">
+          <i class="far fa-grin"></i>
+        </button>
+        <button class="chat-input__box__up">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/e66c30c849.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

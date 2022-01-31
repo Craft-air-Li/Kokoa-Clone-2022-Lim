@@ -7,6 +7,9 @@
     box-sizing: border-box;
     padding: 3px 5px;
 }
+.status-bar-chat{
+    background-color: rgb(171, 194, 209);
+}
 .status-bar__column{
     width: 33%;
     display: flex;
